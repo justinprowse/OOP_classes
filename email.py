@@ -73,7 +73,7 @@ while True:
                             "3. Quit application\n"
                             "Enter selection: ")
        
-        try:
+        try:                            # changed user_choice isdigit to try except
             user_choice = int()
         except ValueError:
         print("Oops - incorrect input.")
@@ -108,3 +108,4 @@ while True:
 
     else:
         print("Oops - incorrect input.")
+
